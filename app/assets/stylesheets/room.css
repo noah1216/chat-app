@@ -39,12 +39,7 @@ li {
   border-radius: 2px;
   text-align: center;
 }
-.chat-room-form__label {
-  display: block;
-  line-height: 50px;
-  font-weight: bold;
-  text-align: right;
-}
+ 
 .chat-room-form__input {
   float: left;
   width: 100%;
