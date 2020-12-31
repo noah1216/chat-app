@@ -117,3 +117,8 @@ select {
   height: 80px;
   width: 100%;
 }
+
+.field_with_errors {
+  display: contents;
+}
+/* エラー画面を表示したときに勝手に作成された邪魔なdivを非表示するコード */
