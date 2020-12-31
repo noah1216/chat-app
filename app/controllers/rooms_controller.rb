@@ -6,6 +6,8 @@ class RoomsController < ApplicationController
   
   def new
     @room = Room.new
+   
+
   end
 
   def create
@@ -14,7 +16,8 @@ class RoomsController < ApplicationController
       redirect_to root_path
     else
       render :new
-    end
+    end 
+    
   end
 
   def destroy
