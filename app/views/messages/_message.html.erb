@@ -6,7 +6,8 @@
     </div>
     <div class="message-date">
       <!-- 投稿した時刻を出力する -->
-      <%= message.created_at %>
+      <%= l message.created_at %>
+      <%# 時刻をジャパンに変更した時の記述、lメソッドを使用 %>
     </div>
   </div>
   <div class="lower-message">
