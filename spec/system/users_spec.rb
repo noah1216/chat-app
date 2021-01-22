@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-<<<<<<< HEAD
+
 RSpec.describe "Users", type: :system do
   before do
     driven_by(:rack_test)
@@ -8,7 +8,7 @@ RSpec.describe "Users", type: :system do
 
   pending "add some scenarios (or delete) #{__FILE__}"
 end
-=======
+
 RSpec.describe "ユーザーログイン機能", type: :system do
   it 'ログインしていない状態でトップページにアクセスした場合、サインインページに移動する' do
     # トップページに遷移する
@@ -48,4 +48,3 @@ RSpec.describe "ユーザーログイン機能", type: :system do
     expect(current_path).to eq new_user_session_path
   end
 end
->>>>>>> 121a094132b63701e7aad86ef97163f5abbafac0

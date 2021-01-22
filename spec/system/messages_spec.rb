@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 require 'rails_helper'
 
 RSpec.describe "Messages", type: :system do
@@ -8,7 +8,7 @@ RSpec.describe "Messages", type: :system do
 
   pending "add some scenarios (or delete) #{__FILE__}"
 end
-=======
+
 
 RSpec.describe "メッセージ投稿機能", type: :system do
   before do
@@ -115,4 +115,4 @@ RSpec.describe "メッセージ投稿機能", type: :system do
     end
   end
 end
->>>>>>> 121a094132b63701e7aad86ef97163f5abbafac0
+

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-<<<<<<< HEAD
+
 RSpec.describe "Rooms", type: :system do
   before do
     driven_by(:rack_test)
@@ -8,7 +8,7 @@ RSpec.describe "Rooms", type: :system do
 
   pending "add some scenarios (or delete) #{__FILE__}"
 end
-=======
+
 RSpec.describe "チャットルームの削除機能", type: :system do
   before do
     @room_user = FactoryBot.create(:room_user)
@@ -33,4 +33,3 @@ RSpec.describe "チャットルームの削除機能", type: :system do
     expect(current_path).to eq root_path
   end
 end
->>>>>>> 121a094132b63701e7aad86ef97163f5abbafac0
