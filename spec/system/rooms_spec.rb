@@ -1,5 +1,14 @@
 require 'rails_helper'
 
+
+RSpec.describe "Rooms", type: :system do
+  before do
+    driven_by(:rack_test)
+  end
+
+  pending "add some scenarios (or delete) #{__FILE__}"
+end
+
 RSpec.describe "チャットルームの削除機能", type: :system do
   before do
     @room_user = FactoryBot.create(:room_user)

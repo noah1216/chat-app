@@ -1,4 +1,15 @@
 
+require 'rails_helper'
+
+RSpec.describe "Messages", type: :system do
+  before do
+    driven_by(:rack_test)
+  end
+
+  pending "add some scenarios (or delete) #{__FILE__}"
+end
+
+
 RSpec.describe "メッセージ投稿機能", type: :system do
   before do
     # 中間テーブルを作成して、usersテーブルとroomsテーブルのレコードを作成する
@@ -104,3 +115,4 @@ RSpec.describe "メッセージ投稿機能", type: :system do
     end
   end
 end
+
