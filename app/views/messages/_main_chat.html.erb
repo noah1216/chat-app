@@ -6,7 +6,7 @@
   </div>
   <div class="right-header">
     <div class="header-button">
-         <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+         <%= link_to "チャットを終了する", room_path(@room.id), method: :delete %>
     </div>
   </div>
 </div>
@@ -18,6 +18,10 @@
   <%= render partial: 'message', collection: @messages %>
   <%# collectionオプションは配列の数だけrenderを繰り返す、each要らずなのだ %>
 </div>
+<%# 呼び出す部分テンプレートがviewsフォルダ内にあるhogesフォルダに存在する
+部分テンプレート名が_hoge.html.erbである
+部分テンプレート内で使う変数がhogeである %>
+と省略できる
 
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
